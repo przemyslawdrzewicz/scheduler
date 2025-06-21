@@ -1,0 +1,50 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables file
+.env
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Django migration files (optional: include if you want to ignore migrations)
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# Database files
+db.sqlite3
+
+# Static files (if you collect static files locally)
+staticfiles/
+static/
+
+# Media files (uploaded user content)
+media/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
+
+# Byte-compiled files
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
