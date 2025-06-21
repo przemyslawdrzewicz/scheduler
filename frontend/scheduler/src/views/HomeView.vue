@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { onMounted } from 'vue'
+
+onMounted(async () => {
+  const response = await fetch('http://localhost:8000/calendar/')
+})
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <main>hello</main>
 </template>
